@@ -1,16 +1,18 @@
 <!DOCTYPE html> 
 <head>
 	<meta charset="utf-8" />	<!--Standard Character set-->
+	<meta name="description" content="Webdev practice!">
+	<meta name="author" content="Hans Santos">
 	<meta name="viewport" content="width=device-width, initial-scale=1">	<!--Put this in for repsonsive sites!-->
-	<title>Rocket Design - Mobile Web Design Services</title>	<!--Header text-->
+	<title>Webdev pracice | Welcome</title>	<!--Header text-->
 	<link rel="stylesheet" type="text/css" href="style.css" />	<!--refers to css stuff-->
 	<link href="css/font-awesome.min.css" rel="stylesheet"/>	<!--imports fontawesone-->
 	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>	<!--icon in tab-->
 </head>
 <body>
 	<header>
-		<div id="header-inner">
-			<a href="index.html" id="logo"></a> <!--for the top left logo-->
+		<div id="container"> <!--ID = occurs once, header = over and over-->
+			<a href="index.html" id="logo">Hans</a> <!--for the top left logo-->
 			<nav>
 				<a href="#" id="menu-icon"></a>
 				<ul>
@@ -23,7 +25,47 @@
 			</nav>
 		</div>
 	</header>
+<!--End Header-->
 
+	<section id="showcase">
+		<div class="container">
+			<h1>Web Design Practice for CS!</h1>
+			<p>In ea aliquip magna tempor id qui ipsum. Deserunt anim consectetur tempor culpa exercitation adipisicing minim sint tempor enim. Id minim aliqua proident esse et adipisicing fugiat sit deserunt. Enim sint cupidatat sint ut exercitation cupidatat deserunt proident Lorem et nulla.</p>
+		</div>
+	</section>
+<!--End <showcase-->
+
+	<section id="newsletter">
+		<h1>Subscribe to my Newsletter!</h1>
+		<form>
+			<input type="email" placeholder="Enter E-mail...">
+			<button type="submit" class="button-1">Subscribe</button>
+		</form>
+	</section>
+<!--End newsletter-->
+
+	<section id="boxes">
+		<div class="container">
+			<div class="box">
+				<td><i class="fa fa-html5"></i></td>	<!--fontawesome uses i to call its shit idk-->
+				<h3>HTML5 Markup</h3>
+				<p>Excepteur sit officia aute aute tempor excepteur sit dolore aliqua veniam est nisi.</p>
+			</div>
+			<div class="box">
+				<td><i class="fa fa-css3"></i></td>
+				<h3>CSS3 Styling</h3>
+				<p>Excepteur sit officia aute aute tempor excepteur sit dolore aliqua veniam est nisi.</p>
+			</div>
+			<div class="box">
+				<td><i class="fa fa-magic"></i></td>
+				<h3>Graphic Design</h3>
+				<p>Excepteur sit officia aute aute tempor excepteur sit dolore aliqua veniam est nisi.</p>
+			</div>
+<!--End boxes-->
+
+	<footer>
+		<p>Curated by Hans Santos, Copyright &copy; 2017</p>
+	</footer>
 
 </body>
 </html>
